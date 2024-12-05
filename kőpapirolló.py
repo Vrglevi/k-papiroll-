@@ -35,9 +35,16 @@ def kopapirollo():
 
 
 
+input=input("Szeretnél játszani y/n: ")
+if input == "n":
+    print ("Viszlát")
+elif ujra == "y":
+    kopapirollo()
+else:
+    print("igen vagy nem")
 
 
-kopapirollo()
+
 igaz2=True
 while igaz2:
     ujra=input("Szeretnél még játszani y/n: ")
