@@ -33,24 +33,11 @@ def kopapirollo():
     print("Gratulálok")
     print(str(proba) + " Próbából sikerűlt legyőzni a gépet." )
 
-
-
-input=input("Szeretnél játszani y/n: ")
-if input == "n":
-    print ("Viszlát")
-elif ujra == "y":
-    kopapirollo()
-else:
-    print("igen vagy nem")
-
-
-
-igaz2=True
-while igaz2:
+while True:
     ujra=input("Szeretnél még játszani y/n: ")
     if ujra == "n":
         print ("Viszlát")
-        igaz2=False
+        break
     elif ujra == "y":
        kopapirollo()
     else:
